@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            display: flex;
+        }
+
+        .left {
+            display: flex;
+            background: blue;
+            width: 18vw;
+            height: 80px;
+            font-size: 25px;
+            color: white;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .right {
+            width: 85vw;
+            height: 80px;
+            background: whitesmoke;
+
+        }
+
+        .right .icons {
+            display: flex;
+            align-items: center;
+
+        }
+
+        .right .icons img {
+            width: 30px;
+            height: 30px;
+            margin: 20px;
+        }
+
+        .icons .user {
+            margin-left: 950px;
+        }
+
+        .body{
+            display: flex;
+            padding-left: ;
+        }
+
+        .leftdown {
+            display: flex;
+            display: inline-block;
+            height: 90vh;
+            width: 17.5vw;
+            background: #000;
+        }
+
+        .leftdown .avtar {
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 55px;
+            width: 55px;
+            border: 2px solid white;
+            border-radius: 50%;
+            margin: 40px;
+
+        }
+
+        .leftdown .avtar img {
+            height: 40px;
+            width: 40px;
+
+        }
+
+        .options {
+            position: absolute;
+            top: 200px;
+            margin-left: 40px;
+        }
+
+        .options h3 {
+            color: white;
+            font-size: 1.4em;
+        }
+
+        .options .admin {
+            color: white;
+            font-size: 1.1em;
+        }
+
+        .options .content {
+            color: white;
+            margin: 40px 30px;
+            font-size: 1.5em;
+        }
+        
+        .contents{
+            background: wheat;
+            width: 82vw;
+        }
+
+        .contents .balance{
+            display: flex;
+            height: 120px;
+            width: 250px;
+            background: rgba(26, 125, 26, 0.689);
+            margin: 20px;
+        }
+
+        .balance div{
+            color: white;
+            font-size: 1.3em;
+            margin: 10px;
+            
+        }
+
+        .balance div .bal{
+            margin-top: 20px;
+        }
+        .balance img{
+            margin: 20px 60px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <div class="left">
+            Money Track
+
+        </div>
+        <div class="right">
+            <div class="icons">
+                <div class="menu">
+                    <img src="Images and Iocns\menu.png" alt="">
+                </div>
+
+
+                <div class="search">
+                    <img src="Images and Iocns\search.png" alt="">
+                </div>
+
+                <div class="user">
+                    <img src="Images and Iocns\user(1).png" alt="">
+                </div>
+
+                <div class="menu">
+                    <img src="Images and Iocns\menu.png" alt="">
+                </div>
+            </div>
+
+        </div>
+
+
+    </header>
+    <div class="body">
+    <div class="leftdown">
+        <div class="avtar">
+            <img src="Images and Iocns\hacker.png" alt="">
+        </div>
+
+        <div class="options">
+            <h3>Hello User</h3>
+            <p class=" admin">Administrator Online</p>
+            <p class="content">Dash board</p>
+            <p class="content">Add Cash</p>
+            <p class="content">Setting</p>
+        </div>
+
+    </div>
+    <div class="contents">
+        <div class="balance">
+            <div class="">Balance</div>
+            <div><img src="Images and Iocns\money.png" alt="Images" height="40px" width="40px"></div>
+            <br>
+            <div class="bal">INR</div>
+            <div class="bal">85203000</div>
+        </div>
+        <div class="shopping">
+
+        </div>
+
+        <div class="food">
+
+        </div>
+
+        <div class="bills">
+
+        </div>
+
+        <div class="others">
+
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
